@@ -5,4 +5,4 @@ semoga dapat bermafaat.
 
 silakan menggunakan template ini atau mengubahnya
 dan jangan lupa sertakan nama link template original nya
-yaitu di utam13.io/template01
+yaitu di https://utam13.github.io/template01/.
