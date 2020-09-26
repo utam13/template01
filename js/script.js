@@ -3,15 +3,17 @@ $(document).ready(function () {
     // console.log(windowsize);
 
     if (windowsize <= 786) {
-        $('#navbar').css("background-color", "rgba(0, 0, 0, 1)")
+        $('#navbar').css("background-color", "rgba(0, 0, 0, 1)");
+        $('#home').addClass("mt-5");
     } else {
+        $('#home').removeClass("mt-5");
         $(window).scroll(function () {
             let hT = $('#navbar').offset().top,
                 wH = $('#home').height()
             if (hT > wH) {
-                $('#navbar').css("background-color", "rgba(0, 0, 0, 1)")
+                $('#navbar').css("background-color", "rgba(0, 0, 0, 1)");
             } else {
-                $('#navbar').css("background-color", "rgba(0, 0, 0, 0.5)")
+                $('#navbar').css("background-color", "rgba(0, 0, 0, 0.5)");
             }
         });
     }
